@@ -1,0 +1,99 @@
+.about {
+  margin-top: 100px;
+  h6 {
+    font-size: 60px;
+    margin-left: 135px;
+  }
+}
+.about-line {
+  width: 171px;
+  height: 2px;
+  background-color: black;
+  margin-left: 135px;
+}
+
+.about-content {
+  p {
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+  }
+}
+
+.quotes {
+  .client-quotes {
+    font-size: 40px;
+    margin-left: 135px;
+  }
+  .client-line {
+    width: 171px;
+    height: 2px;
+    background-color: black;
+    margin-left: 135px;
+  }
+}
+
+.about-clients {
+  height: 150px;
+  width: 100%;
+  display: inline-flex;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  .clientimg1 {
+    background-image: url(../images/about-client-01.jpg);
+    height: 150px;
+    width: 300px;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 135px;
+    margin-top: 10px;
+  }
+  p {
+    width: 375px;
+    margin-left: 20px;
+    font-size: 16px;
+    margin-top: 17px;
+  }
+  h3 {
+    position: absolute;
+    margin-left: 750px;
+    font-size: 20px;
+    color: #79addc;
+    margin-top: 125px;
+  }
+}
+
+.about-clients2 {
+  height: 150px;
+  width: 100%;
+  display: inline-flex;
+  margin-bottom: 300px;
+  margin-top: 30px;
+  .clientimg2 {
+    background-image: url(../images/about-client-02.jpg);
+    height: 150px;
+    width: 300px;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 135px;
+    margin-top: 10px;
+  }
+  p {
+    width: 375px;
+    margin-left: 20px;
+    font-size: 16px;
+    margin-top: 17px;
+  }
+  h3 {
+    position: absolute;
+    margin-left: 750px;
+    font-size: 20px;
+    color: #79addc;
+    margin-top: 125px;
+  }
+}
