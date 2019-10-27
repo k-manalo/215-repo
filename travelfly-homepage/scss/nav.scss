@@ -1,0 +1,32 @@
+nav {
+  width: 980px;
+  height: 90px;
+  margin: 0 auto;
+  margin-top: 45px;
+  border-bottom: 2px solid white;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-between;
+
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+      color: white;
+      font-size: 15px;
+      text-decoration: none;
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+  }
+  span {
+    margin: 0 10px;
+    color: #79addc;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
