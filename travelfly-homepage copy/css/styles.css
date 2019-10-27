@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /*unable to get color variables to work. I tried compiling
+=======
+/*unable to get color variables to work. I tried compiling
+>>>>>>> d560f0fc52669eb15117934fea1a96ab99826aa0
 in pre pros and I made sure variables.scss is imported at the top of styles.scss*/
 * {
   margin: 0;
