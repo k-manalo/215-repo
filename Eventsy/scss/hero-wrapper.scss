@@ -4,8 +4,7 @@
   background-color: $site-yellow;
   .hero {
     height: 500px;
-    width: 900px;
-    margin: 0 auto;
+    @include center-content(1280px, 0 auto);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,7 +14,6 @@
         rgba($site-yellow, 0.8)
       ),
       url(../images/home-hero.jpg);
-    margin: 0 auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,4 +46,3 @@
     }
   }
 }
-font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;

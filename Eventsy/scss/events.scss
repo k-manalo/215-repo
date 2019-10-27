@@ -1,0 +1,64 @@
+.events {
+  height: 320px;
+  background: $site-purple;
+
+  .event-container {
+    @include center-content();
+    padding: 50px 40px;
+    .title {
+      text-transform: uppercase;
+      font-size: 25px;
+      color: $site-white;
+    }
+    .event-line {
+      height: 2px;
+      width: 392px;
+      background-color: $site-white;
+      margin-bottom: 25px;
+    }
+    .date-container {
+      height: 140px;
+      display: flex;
+      justify-content: space-between;
+      .date {
+        height: 100%;
+        width: 220px;
+        justify-content: space-between;
+        display: flex;
+        .date-day {
+          width: 60px;
+          height: 60px;
+          background-color: $site-pink;
+          color: $site-white;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          .day {
+            font-size: 22px;
+            margin-bottom: 0;
+          }
+          .month {
+            text-transform: uppercase;
+            margin-bottom: 0;
+          }
+        }
+        .date-text-cont {
+          width: 160px;
+          height: 100%;
+
+          padding-left: 20px;
+          .subject {
+            color: $site-white;
+            margin-bottom: 10px;
+            font-size: 15px;
+          }
+          .description {
+            color: $site-pink;
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+}

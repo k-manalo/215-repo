@@ -19,3 +19,42 @@ h6,
 p {
   margin-bottom: 16px;
 }
+
+.inputs {
+  @include center-content();
+  height: 400px;
+  background-color: $site-pink;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+
+  input {
+    width: 529px;
+    height: 60px;
+    font-size: 16px;
+    padding-left: 10px;
+    background-color: #f56b88;
+    border: 1px solid $site-purple;
+    color: $site-white;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      color: rgba($site-white, 0.5);
+    }
+  }
+
+  .submit-button {
+    background-color: $site-white;
+    color: $site-pink;
+    text-transform: uppercase;
+    width: 167px;
+    height: 60px;
+    margin-left: -5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+}

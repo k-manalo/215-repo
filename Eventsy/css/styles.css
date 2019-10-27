@@ -19,6 +19,52 @@ h6,
 p {
   margin-bottom: 16px; }
 
+.inputs {
+  width: 1200px;
+  margin: 0 auto;
+  height: 400px;
+  background-color: #ee4367;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .inputs input {
+    width: 529px;
+    height: 60px;
+    font-size: 16px;
+    padding-left: 10px;
+    background-color: #f56b88;
+    border: 1px solid #540d6e;
+    color: #fff; }
+    .inputs input:focus {
+      outline: none; }
+    .inputs input::-webkit-input-placeholder {
+      color: rgba(255, 255, 255, 0.5); }
+    .inputs input:-ms-input-placeholder {
+      color: rgba(255, 255, 255, 0.5); }
+    .inputs input::-ms-input-placeholder {
+      color: rgba(255, 255, 255, 0.5); }
+    .inputs input::placeholder {
+      color: rgba(255, 255, 255, 0.5); }
+  .inputs .submit-button {
+    background-color: #fff;
+    color: #ee4367;
+    text-transform: uppercase;
+    width: 167px;
+    height: 60px;
+    margin-left: -5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center; }
+
 nav {
   width: 980px;
   height: 92px;
@@ -76,7 +122,6 @@ nav {
     background-image: -webkit-linear-gradient(left, rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url(../images/home-hero.jpg);
     background-image: -o-linear-gradient(left, rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url(../images/home-hero.jpg);
     background-image: linear-gradient(to right, rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url(../images/home-hero.jpg);
-    margin: 0 auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
@@ -101,3 +146,93 @@ nav {
         font-size: 15px;
         text-decoration: none;
         background-color: #ee4367; }
+
+.quote {
+  height: 300px;
+  width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .quote .quote-content {
+    width: 789px;
+    margin: auto; }
+    .quote .quote-content .jquote {
+      color: #ffd140;
+      font-size: 15px; }
+    .quote .quote-content .name {
+      color: #ee4367;
+      font-size: 15px;
+      margin-bottom: 0; }
+    .quote .quote-content .ceo {
+      color: grey;
+      font-size: 10px; }
+
+.events {
+  height: 320px;
+  background: #540d6e; }
+  .events .event-container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 40px; }
+    .events .event-container .title {
+      text-transform: uppercase;
+      font-size: 25px;
+      color: #fff; }
+    .events .event-container .event-line {
+      height: 2px;
+      width: 392px;
+      background-color: #fff;
+      margin-bottom: 25px; }
+    .events .event-container .date-container {
+      height: 140px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .events .event-container .date-container .date {
+        height: 100%;
+        width: 220px;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        .events .event-container .date-container .date .date-day {
+          width: 60px;
+          height: 60px;
+          background-color: #ee4367;
+          color: #fff;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center; }
+          .events .event-container .date-container .date .date-day .day {
+            font-size: 22px;
+            margin-bottom: 0; }
+          .events .event-container .date-container .date .date-day .month {
+            text-transform: uppercase;
+            margin-bottom: 0; }
+        .events .event-container .date-container .date .date-text-cont {
+          width: 160px;
+          height: 100%;
+          padding-left: 20px; }
+          .events .event-container .date-container .date .date-text-cont .subject {
+            color: #fff;
+            margin-bottom: 10px;
+            font-size: 15px; }
+          .events .event-container .date-container .date .date-text-cont .description {
+            color: #ee4367;
+            font-size: 13px; }
