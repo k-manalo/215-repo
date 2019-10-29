@@ -381,9 +381,6 @@ nav {
         color: black; }
   .booking-form .inputs .room-size {
     width: 845px;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -428,13 +425,14 @@ nav {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      margin-top: 30px; }
+      margin-top: 30px;
+      margin-left: 60px; }
       .booking-form .inputs .room-size .children p {
         padding: 15px;
         text-align: center;
         font-size: 18px; }
       .booking-form .inputs .room-size .children input {
-        margin-left: 35px;
+        margin-left: 40px;
         width: 103px;
         height: 58px;
         font-size: 18px;
@@ -459,14 +457,15 @@ nav {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      margin-top: 30px; }
+      margin-top: 30px;
+      margin-left: 60px; }
       .booking-form .inputs .room-size .rooms p {
         padding: 15px;
         text-align: center;
         font-size: 18px;
         margin-left: 5px; }
       .booking-form .inputs .room-size .rooms input {
-        margin-left: 35px;
+        margin-left: 48px;
         width: 103px;
         height: 58px;
         font-size: 18px;
@@ -485,18 +484,19 @@ nav {
         .booking-form .inputs .room-size .rooms input::placeholder {
           color: black; }
   .booking-form .inputs .message {
-    -ms-flex-line-pack: center;
-    align-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 30px;
-    margin-left: 231px; }
+    margin-top: 30px; }
     .booking-form .inputs .message input {
       width: 818px;
       height: 192px;
       font-size: 18px;
       padding-left: 10px;
+      padding-bottom: 150px;
       border: 1px solid #79addc; }
       .booking-form .inputs .message input::-webkit-input-placeholder {
         color: black; }
@@ -507,7 +507,6 @@ nav {
       .booking-form .inputs .message input::placeholder {
         color: black; }
   .booking-form .inputs .submit {
-    margin-left: 20px;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -516,15 +515,16 @@ nav {
     display: -ms-flexbox;
     display: flex; }
     .booking-form .inputs .submit .button {
+      border-radius: 25px;
       width: 813px;
       height: 61px;
-      border-radius: 25px;
       padding: 10px 20px;
       color: white;
       font-size: 15px;
       text-decoration: none;
       background-color: #79addc;
-      text-align: center; }
+      text-align: center;
+      padding-top: 21px; }
 
 .footer {
   display: -webkit-box;
