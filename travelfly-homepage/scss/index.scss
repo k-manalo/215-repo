@@ -1,10 +1,11 @@
 .countries {
-  position: absolute;
-  margin-bottom: 100px;
+  justify-content: center;
+  //position: absolute;
+  margin-bottom: 30px;
   align-content: center;
   display: flex;
   margin: 20px;
-  margin-top: 450px;
+  margin-top: -40px;
   .israel {
     background-image: linear-gradient(
         to right,
@@ -17,8 +18,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-right: 55px;
-    margin-left: 215px;
+
     .country {
       color: white;
       font-size: 60px;
@@ -59,7 +59,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-right: 55px;
+    margin-left: 56px;
+    margin-right: 56px;
     .country {
       color: white;
       font-size: 60px;

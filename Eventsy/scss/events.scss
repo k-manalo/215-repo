@@ -1,5 +1,5 @@
 .events {
-  height: 320px;
+  min-height: 320px;
   background: $site-purple;
 
   .event-container {
@@ -17,7 +17,7 @@
       margin-bottom: 25px;
     }
     .date-container {
-      height: 140px;
+      min-height: 140px;
       display: flex;
       justify-content: space-between;
       .date {
@@ -58,6 +58,17 @@
             font-size: 13px;
           }
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 1092px) {
+  .events {
+    .event-container {
+      .date-container {
+        align-items: center;
+        flex-direction: column;
       }
     }
   }

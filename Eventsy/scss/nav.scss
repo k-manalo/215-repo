@@ -1,5 +1,5 @@
 nav {
-  width: 980px;
+  width: 80%;
   height: 92px;
   margin: 0 auto;
   border-bottom: 2px solid $site-white;
@@ -7,7 +7,7 @@ nav {
   text-decoration: none;
   align-items: center;
   justify-content: space-between;
-
+  //z-index: ;
   .links {
     display: flex;
     align-items: center;
@@ -19,11 +19,54 @@ nav {
       text-decoration: none;
     }
   }
-  .logo {
+  .link-wrap {
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    .logo {
+      height: 42px;
+      width: 42px;
+    }
+    span {
+      margin: 0 10px;
+      color: $site-pink;
+      font-size: 20px;
+    }
+    .navicon {
+      display: none;
+      color: $site-white;
+      font-size: 120%;
+      cursor: pointer;
+    }
   }
-  span {
-    margin: 0 10px;
-    color: $site-pink;
-    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  nav {
+    .link-wrap {
+      background-color: brown;
+      padding-top: 50px;
+
+      &:hover > .links {
+        display: flex;
+      }
+      .links {
+        //display: none;
+        flex-direction: column;
+        margin-top: 250px;
+        width: 200px;
+
+        a {
+          margin-bottom: 20px;
+        }
+        span {
+          display: none;
+        }
+      }
+      .navicon {
+        margin-top: -250px;
+        display: block;
+      }
+    }
   }
 }

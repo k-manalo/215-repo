@@ -117,15 +117,17 @@ nav {
     margin-right: 10px; }
 
 .countries {
-  position: absolute;
-  margin-bottom: 100px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 30px;
   -ms-flex-line-pack: center;
   align-content: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 20px;
-  margin-top: 450px; }
+  margin-top: -40px; }
   .countries .israel {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-01.jpg);
     background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
@@ -135,9 +137,7 @@ nav {
     width: 236px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    margin-right: 55px;
-    margin-left: 215px; }
+    background-size: cover; }
     .countries .israel .country {
       color: white;
       font-size: 60px;
@@ -170,7 +170,8 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-right: 55px; }
+    margin-left: 56px;
+    margin-right: 56px; }
     .countries .usa .country {
       color: white;
       font-size: 60px;
@@ -229,32 +230,33 @@ nav {
 .booking-form {
   height: 500px; }
   .booking-form .title {
+    margin: 0 auto;
     font-size: 60px;
-    margin-left: 231px;
-    margin-top: 320px; }
+    width: 830px;
+    text-align: left;
+    margin-top: 60px; }
   .booking-form .inputs .name-email {
-    -ms-flex-line-pack: center;
-    align-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-top: 30px; }
-    .booking-form .inputs .name-email .name {
-      margin-left: 231px; }
-      .booking-form .inputs .name-email .name input {
-        width: 344px;
-        height: 58px;
-        font-size: 18px;
-        padding-left: 10px;
-        border: 1px solid #79addc; }
-        .booking-form .inputs .name-email .name input::-webkit-input-placeholder {
-          color: black; }
-        .booking-form .inputs .name-email .name input:-ms-input-placeholder {
-          color: black; }
-        .booking-form .inputs .name-email .name input::-ms-input-placeholder {
-          color: black; }
-        .booking-form .inputs .name-email .name input::placeholder {
-          color: black; }
+    .booking-form .inputs .name-email .name input {
+      width: 344px;
+      height: 58px;
+      font-size: 18px;
+      padding-left: 10px;
+      border: 1px solid #79addc; }
+      .booking-form .inputs .name-email .name input::-webkit-input-placeholder {
+        color: black; }
+      .booking-form .inputs .name-email .name input:-ms-input-placeholder {
+        color: black; }
+      .booking-form .inputs .name-email .name input::-ms-input-placeholder {
+        color: black; }
+      .booking-form .inputs .name-email .name input::placeholder {
+        color: black; }
     .booking-form .inputs .name-email .email {
       margin-left: 25px; }
       .booking-form .inputs .name-email .email input {
@@ -272,28 +274,27 @@ nav {
         .booking-form .inputs .name-email .email input::placeholder {
           color: black; }
   .booking-form .inputs .country-hotel {
-    -ms-flex-line-pack: center;
-    align-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-top: 30px; }
-    .booking-form .inputs .country-hotel .country {
-      margin-left: 231px; }
-      .booking-form .inputs .country-hotel .country input {
-        width: 344px;
-        height: 58px;
-        font-size: 18px;
-        padding-left: 10px;
-        border: 1px solid #79addc; }
-        .booking-form .inputs .country-hotel .country input::-webkit-input-placeholder {
-          color: black; }
-        .booking-form .inputs .country-hotel .country input:-ms-input-placeholder {
-          color: black; }
-        .booking-form .inputs .country-hotel .country input::-ms-input-placeholder {
-          color: black; }
-        .booking-form .inputs .country-hotel .country input::placeholder {
-          color: black; }
+    .booking-form .inputs .country-hotel .country input {
+      width: 344px;
+      height: 58px;
+      font-size: 18px;
+      padding-left: 10px;
+      border: 1px solid #79addc; }
+      .booking-form .inputs .country-hotel .country input::-webkit-input-placeholder {
+        color: black; }
+      .booking-form .inputs .country-hotel .country input:-ms-input-placeholder {
+        color: black; }
+      .booking-form .inputs .country-hotel .country input::-ms-input-placeholder {
+        color: black; }
+      .booking-form .inputs .country-hotel .country input::placeholder {
+        color: black; }
     .booking-form .inputs .country-hotel .hotel {
       margin-left: 25px; }
       .booking-form .inputs .country-hotel .hotel input {
@@ -318,14 +319,16 @@ nav {
     display: -ms-flexbox;
     display: flex;
     margin-top: 30px; }
-    .booking-form .inputs .checkin p {
-      padding: 15px;
-      text-align: center;
-      font-size: 18px;
-      margin-left: 10px; }
+    .booking-form .inputs .checkin .in {
+      width: 110px; }
+      .booking-form .inputs .checkin .in p {
+        padding-top: 15px;
+        text-align: left;
+        font-size: 18px;
+        margin-left: 10px; }
     .booking-form .inputs .checkin input {
-      margin-left: 50px;
-      width: 690px;
+      margin-left: 15px;
+      width: 698px;
       height: 58px;
       font-size: 18px;
       padding-left: 10px;
@@ -350,14 +353,16 @@ nav {
     display: -ms-flexbox;
     display: flex;
     margin-top: 30px; }
-    .booking-form .inputs .checkout p {
-      padding: 15px;
-      text-align: center;
-      font-size: 18px;
-      margin-left: 5px; }
+    .booking-form .inputs .checkout .out {
+      width: 110px; }
+      .booking-form .inputs .checkout .out p {
+        padding-top: 15px;
+        text-align: left;
+        font-size: 18px;
+        margin-left: 10px; }
     .booking-form .inputs .checkout input {
-      margin-left: 45px;
-      width: 690px;
+      margin-left: 15px;
+      width: 698px;
       height: 58px;
       font-size: 18px;
       padding-left: 10px;
@@ -376,9 +381,6 @@ nav {
         color: black; }
   .booking-form .inputs .room-size {
     width: 845px;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -398,7 +400,7 @@ nav {
         font-size: 18px;
         margin-left: 5px; }
       .booking-form .inputs .room-size .adults input {
-        margin-left: 45px;
+        margin-left: 62px;
         width: 103px;
         height: 58px;
         font-size: 18px;
@@ -423,14 +425,14 @@ nav {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      margin-top: 30px; }
+      margin-top: 30px;
+      margin-left: 60px; }
       .booking-form .inputs .room-size .children p {
         padding: 15px;
         text-align: center;
-        font-size: 18px;
-        margin-left: 5px; }
+        font-size: 18px; }
       .booking-form .inputs .room-size .children input {
-        margin-left: 45px;
+        margin-left: 40px;
         width: 103px;
         height: 58px;
         font-size: 18px;
@@ -455,14 +457,15 @@ nav {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      margin-top: 30px; }
+      margin-top: 30px;
+      margin-left: 60px; }
       .booking-form .inputs .room-size .rooms p {
         padding: 15px;
         text-align: center;
         font-size: 18px;
         margin-left: 5px; }
       .booking-form .inputs .room-size .rooms input {
-        margin-left: 45px;
+        margin-left: 48px;
         width: 103px;
         height: 58px;
         font-size: 18px;
@@ -481,16 +484,19 @@ nav {
         .booking-form .inputs .room-size .rooms input::placeholder {
           color: black; }
   .booking-form .inputs .message {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 30px;
-    margin-left: 231px; }
+    margin-top: 30px; }
     .booking-form .inputs .message input {
       width: 818px;
       height: 192px;
       font-size: 18px;
       padding-left: 10px;
+      padding-bottom: 150px;
       border: 1px solid #79addc; }
       .booking-form .inputs .message input::-webkit-input-placeholder {
         color: black; }
@@ -501,7 +507,6 @@ nav {
       .booking-form .inputs .message input::placeholder {
         color: black; }
   .booking-form .inputs .submit {
-    margin-left: 20px;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -510,22 +515,23 @@ nav {
     display: -ms-flexbox;
     display: flex; }
     .booking-form .inputs .submit .button {
+      border-radius: 25px;
       width: 813px;
       height: 61px;
-      border-radius: 25px;
       padding: 10px 20px;
       color: white;
       font-size: 15px;
       text-decoration: none;
       background-color: #79addc;
-      text-align: center; }
+      text-align: center;
+      padding-top: 21px; }
 
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 425px;
-  width: 1280px;
+  width: 100%;
   height: 100px;
   background-color: #79addc; }
   .footer .footer-container {

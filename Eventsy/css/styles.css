@@ -20,7 +20,7 @@ p {
   margin-bottom: 16px; }
 
 .inputs {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   height: 400px;
   background-color: #ee4367;
@@ -66,7 +66,7 @@ p {
     align-content: center; }
 
 nav {
-  width: 980px;
+  width: 80%;
   height: 92px;
   margin: 0 auto;
   border-bottom: 2px solid #fff;
@@ -95,10 +95,49 @@ nav {
       color: #fff;
       font-size: 15px;
       text-decoration: none; }
-  nav span {
-    margin: 0 10px;
-    color: #ee4367;
-    font-size: 20px; }
+  nav .link-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: blue; }
+    nav .link-wrap .logo {
+      height: 42px;
+      width: 42px; }
+    nav .link-wrap span {
+      margin: 0 10px;
+      color: #ee4367;
+      font-size: 20px; }
+    nav .link-wrap .navicon {
+      display: none;
+      color: #fff;
+      font-size: 120%;
+      cursor: pointer; }
+
+@media (max-width: 768px) {
+  nav .link-wrap {
+    background-color: brown;
+    padding-top: 50px; }
+    nav .link-wrap:hover > .links {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    nav .link-wrap .links {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-top: 250px;
+      width: 200px; }
+      nav .link-wrap .links a {
+        margin-bottom: 20px; }
+      nav .link-wrap .links span {
+        display: none; }
+    nav .link-wrap .navicon {
+      margin-top: -250px;
+      display: block; } }
 
 .hero-wrapper {
   width: 100%;
@@ -106,7 +145,7 @@ nav {
   background-color: #ffd140; }
   .hero-wrapper .hero {
     height: 500px;
-    width: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -149,7 +188,7 @@ nav {
 
 .quote {
   height: 300px;
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -168,11 +207,15 @@ nav {
       color: grey;
       font-size: 10px; }
 
+@media (max-width: 830px) {
+  .quote .quote-content {
+    padding: 0 20px; } }
+
 .events {
-  height: 320px;
+  min-height: 320px;
   background: #540d6e; }
   .events .event-container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 50px 40px; }
     .events .event-container .title {
@@ -185,7 +228,7 @@ nav {
       background-color: #fff;
       margin-bottom: 25px; }
     .events .event-container .date-container {
-      height: 140px;
+      min-height: 140px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -236,3 +279,13 @@ nav {
           .events .event-container .date-container .date .date-text-cont .description {
             color: #ee4367;
             font-size: 13px; }
+
+@media (max-width: 1092px) {
+  .events .event-container .date-container {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; } }
