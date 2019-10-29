@@ -4,22 +4,22 @@
   .title {
     margin: 0 auto;
     font-size: 60px;
-    width: 808px;
-
+    width: 830px;
+    text-align: left;
     margin-top: 60px;
   }
   .inputs {
     .name-email {
-      align-content: center;
+      justify-content: center;
       display: flex;
       margin-top: 30px;
       .name {
-        margin-left: 231px;
         input {
           width: 344px;
           height: 58px;
           font-size: 18px;
           padding-left: 10px;
+
           border: 1px solid #79addc;
           &::placeholder {
             color: black;
@@ -41,11 +41,10 @@
       }
     }
     .country-hotel {
-      align-content: center;
+      justify-content: center;
       display: flex;
       margin-top: 30px;
       .country {
-        margin-left: 231px;
         input {
           width: 344px;
           height: 58px;
@@ -75,16 +74,20 @@
       justify-content: center;
       display: flex;
       margin-top: 30px;
+      .in {
+        width: 110px;
 
-      p {
-        padding: 15px;
-        text-align: center;
-        font-size: 18px;
-        margin-left: 10px;
+        p {
+          padding-top: 15px;
+          text-align: left;
+          font-size: 18px;
+          margin-left: 10px;
+        }
       }
+
       input {
-        margin-left: 50px;
-        width: 690px;
+        margin-left: 15px;
+        width: 698px;
         height: 58px;
         font-size: 18px;
         padding-left: 10px;
@@ -102,16 +105,20 @@
       justify-content: center;
       display: flex;
       margin-top: 30px;
+      .out {
+        width: 110px;
 
-      p {
-        padding: 15px;
-        text-align: center;
-        font-size: 18px;
-        margin-left: 5px;
+        p {
+          padding-top: 15px;
+          text-align: left;
+          font-size: 18px;
+          margin-left: 10px;
+        }
       }
+
       input {
-        margin-left: 45px;
-        width: 690px;
+        margin-left: 15px;
+        width: 698px;
         height: 58px;
         font-size: 18px;
         padding-left: 10px;
@@ -143,7 +150,7 @@
           margin-left: 5px;
         }
         input {
-          margin-left: 45px;
+          margin-left: 62px;
           width: 103px;
           height: 58px;
           font-size: 18px;
@@ -168,10 +175,9 @@
           padding: 15px;
           text-align: center;
           font-size: 18px;
-          margin-left: 5px;
         }
         input {
-          margin-left: 45px;
+          margin-left: 35px;
           width: 103px;
           height: 58px;
           font-size: 18px;
@@ -199,7 +205,7 @@
           margin-left: 5px;
         }
         input {
-          margin-left: 45px;
+          margin-left: 35px;
           width: 103px;
           height: 58px;
           font-size: 18px;
@@ -218,6 +224,7 @@
     }
 
     .message {
+      align-content: center;
       display: flex;
       margin-top: 30px;
       margin-left: 231px;
