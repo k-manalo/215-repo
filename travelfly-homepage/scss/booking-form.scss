@@ -259,3 +259,93 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .booking-form {
+    .title {
+      margin-left: 20px;
+      font-size: 30px;
+    }
+    .inputs {
+      .name-email {
+        flex-direction: column;
+        .name {
+          margin-left: 20px;
+          input {
+            width: 75%;
+          }
+        }
+        .email {
+          margin-left: 20px;
+          input {
+            margin-top: 10px;
+            width: 75%;
+          }
+        }
+      }
+      .country-hotel {
+        flex-direction: column;
+        .country {
+          margin-left: 20px;
+          input {
+            width: 75%;
+          }
+        }
+        .hotel {
+          margin-left: 20px;
+          input {
+            margin-top: 10px;
+            width: 75%;
+          }
+        }
+      }
+      .checkin {
+        width: 75%;
+      }
+      .checkout {
+        width: 75%;
+      }
+      .room-size {
+        .adults {
+          p {
+            margin-left: 0px;
+          }
+          input {
+            margin-left: 0px;
+            max-width: 30%;
+          }
+        }
+        .children {
+          p {
+            margin-left: -80px;
+          }
+          input {
+            margin-left: 0px;
+            max-width: 30%;
+          }
+        }
+        .rooms {
+          p {
+            margin-left: -80px;
+          }
+          input {
+            margin-left: 0px;
+            max-width: 30%;
+          }
+        }
+      }
+      .message {
+        input {
+          justify-content: none;
+          max-width: 75%;
+        }
+      }
+      .submit {
+        .button {
+          width: 407px;
+          margin-bottom: 50px;
+        }
+      }
+    }
+  }
+}

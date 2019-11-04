@@ -6,6 +6,7 @@
   display: flex;
   margin: 20px;
   margin-top: -40px;
+
   .israel {
     background-image: linear-gradient(
         to right,
@@ -124,6 +125,37 @@
       a {
         color: white;
         text-decoration: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .countries {
+    display: flex;
+
+    align-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+    .israel {
+      height: 200px;
+      .learn-more {
+        margin-top: 10px;
+      }
+    }
+    .usa {
+      margin-top: 50px;
+      margin-left: 0;
+      height: 200px;
+      .learn-more {
+        margin-top: 10px;
+      }
+    }
+    .australia {
+      margin-top: 50px;
+      height: 200px;
+      .learn-more {
+        margin-top: 10px;
       }
     }
   }
