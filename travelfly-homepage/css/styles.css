@@ -77,10 +77,26 @@ a {
         text-decoration: none;
         background-color: #79addc; }
 
+@media (max-width: 768px) {
+  .hero-wrapper {
+    height: 150px; }
+    .hero-wrapper .hero {
+      width: 100%;
+      height: 150px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .hero-wrapper .hero .callout h1 {
+        display: none; }
+      .hero-wrapper .hero .callout .lipsum {
+        display: none; }
+      .hero-wrapper .hero .callout .button {
+        display: none; } }
+
 nav {
-  width: 980px;
+  width: 80%;
   height: 90px;
-  margin: 0 auto;
+  position: relative;
   margin-top: 45px;
   border-bottom: 2px solid white;
   display: -webkit-box;
@@ -93,28 +109,67 @@ nav {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between; }
-  nav .links {
+  nav .link-wrap {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
-    nav .links a {
-      color: white;
-      font-size: 15px;
-      text-decoration: none;
-      margin-right: 10px;
-      margin-left: 10px; }
-  nav span {
-    margin: 0 10px;
-    color: #79addc;
-    font-size: 20px;
-    margin-left: 10px;
-    margin-right: 10px; }
+    align-items: center; }
+    nav .link-wrap .links {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      nav .link-wrap .links a {
+        color: white;
+        font-size: 15px;
+        text-decoration: none;
+        margin-right: 10px;
+        margin-left: 10px; }
+    nav .link-wrap span {
+      margin: 0 10px;
+      color: #79addc;
+      font-size: 20px;
+      margin-left: 10px;
+      margin-right: 10px; }
+  nav .navicon {
+    display: none; }
+
+@media (max-width: 768px) {
+  nav {
+    width: 300px; }
+    nav .link-wrap {
+      margin-top: 250px;
+      padding-top: 50px; }
+      nav .link-wrap:hover > .links {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+      nav .link-wrap .links {
+        margin-top: 60px;
+        display: none;
+        background-color: #79addc;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-right: -80px;
+        width: 125px; }
+        nav .link-wrap .links a {
+          margin-bottom: 20px; }
+        nav .link-wrap .links span {
+          display: none; }
+      nav .link-wrap .navicon {
+        margin-top: -260px;
+        display: block;
+        color: white;
+        cursor: pointer; } }
 
 .countries {
   -webkit-box-pack: center;
@@ -226,6 +281,34 @@ nav {
       .countries .australia .learn-more a {
         color: white;
         text-decoration: none; }
+
+@media (max-width: 768px) {
+  .countries {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 25px; }
+    .countries .israel {
+      height: 200px; }
+      .countries .israel .learn-more {
+        margin-top: 10px; }
+    .countries .usa {
+      margin-top: 50px;
+      margin-left: 0;
+      height: 200px; }
+      .countries .usa .learn-more {
+        margin-top: 10px; }
+    .countries .australia {
+      margin-top: 50px;
+      height: 200px; }
+      .countries .australia .learn-more {
+        margin-top: 10px; } }
 
 .booking-form {
   height: 500px; }
@@ -526,6 +609,66 @@ nav {
       text-align: center;
       padding-top: 21px; }
 
+@media (max-width: 768px) {
+  .booking-form .title {
+    margin-left: 20px;
+    font-size: 30px; }
+  .booking-form .inputs .name-email {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .booking-form .inputs .name-email .name {
+      margin-left: 20px; }
+      .booking-form .inputs .name-email .name input {
+        width: 75%; }
+    .booking-form .inputs .name-email .email {
+      margin-left: 20px; }
+      .booking-form .inputs .name-email .email input {
+        margin-top: 10px;
+        width: 75%; }
+  .booking-form .inputs .country-hotel {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .booking-form .inputs .country-hotel .country {
+      margin-left: 20px; }
+      .booking-form .inputs .country-hotel .country input {
+        width: 75%; }
+    .booking-form .inputs .country-hotel .hotel {
+      margin-left: 20px; }
+      .booking-form .inputs .country-hotel .hotel input {
+        margin-top: 10px;
+        width: 75%; }
+  .booking-form .inputs .checkin {
+    width: 75%; }
+  .booking-form .inputs .checkout {
+    width: 75%; }
+  .booking-form .inputs .room-size .adults p {
+    margin-left: 0px; }
+  .booking-form .inputs .room-size .adults input {
+    margin-left: 0px;
+    max-width: 30%; }
+  .booking-form .inputs .room-size .children p {
+    margin-left: -80px; }
+  .booking-form .inputs .room-size .children input {
+    margin-left: 0px;
+    max-width: 30%; }
+  .booking-form .inputs .room-size .rooms p {
+    margin-left: -80px; }
+  .booking-form .inputs .room-size .rooms input {
+    margin-left: 0px;
+    max-width: 30%; }
+  .booking-form .inputs .message input {
+    -webkit-box-pack: none;
+    -ms-flex-pack: none;
+    justify-content: none;
+    max-width: 75%; }
+  .booking-form .inputs .submit .button {
+    width: 407px;
+    margin-bottom: 50px; } }
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -561,3 +704,11 @@ nav {
         width: 23px;
         text-decoration: none;
         color: white; }
+
+@media (max-width: 768px) {
+  .footer {
+    margin-top: 500px;
+    height: 100px; }
+    .footer .footer-container .copyright {
+      margin-left: 50px;
+      margin-right: 50px; } }
