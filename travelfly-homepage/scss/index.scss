@@ -133,10 +133,10 @@
 @media (max-width: 768px) {
   .countries {
     display: flex;
-
-    align-content: center;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    margin-top: 25px;
+    margin-top: 125px;
     .israel {
       height: 200px;
       .learn-more {
@@ -145,7 +145,7 @@
     }
     .usa {
       margin-top: 50px;
-      margin-left: 0;
+      margin-left: 57px;
       height: 200px;
       .learn-more {
         margin-top: 10px;

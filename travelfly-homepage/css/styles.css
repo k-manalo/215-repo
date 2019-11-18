@@ -82,7 +82,7 @@ a {
     height: 150px; }
     .hero-wrapper .hero {
       width: 100%;
-      height: 150px;
+      height: 220px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; }
@@ -91,7 +91,7 @@ a {
       .hero-wrapper .hero .callout .lipsum {
         display: none; }
       .hero-wrapper .hero .callout .button {
-        display: none; } }
+        width: 75%; } }
 
 nav {
   width: 80%;
@@ -143,7 +143,7 @@ nav {
 
 @media (max-width: 768px) {
   nav {
-    width: 300px; }
+    width: 75%; }
     nav .link-wrap {
       margin-top: 250px;
       padding-top: 50px; }
@@ -287,20 +287,24 @@ nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-line-pack: center;
-    align-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin-top: 25px; }
+    margin-top: 125px; }
     .countries .israel {
       height: 200px; }
       .countries .israel .learn-more {
         margin-top: 10px; }
     .countries .usa {
       margin-top: 50px;
-      margin-left: 0;
+      margin-left: 57px;
       height: 200px; }
       .countries .usa .learn-more {
         margin-top: 10px; }
@@ -645,21 +649,25 @@ nav {
     width: 75%; }
   .booking-form .inputs .checkout {
     width: 75%; }
-  .booking-form .inputs .room-size .adults p {
-    margin-left: 0px; }
-  .booking-form .inputs .room-size .adults input {
-    margin-left: 0px;
-    max-width: 30%; }
-  .booking-form .inputs .room-size .children p {
-    margin-left: -80px; }
-  .booking-form .inputs .room-size .children input {
-    margin-left: 0px;
-    max-width: 30%; }
-  .booking-form .inputs .room-size .rooms p {
-    margin-left: -80px; }
-  .booking-form .inputs .room-size .rooms input {
-    margin-left: 0px;
-    max-width: 30%; }
+  .booking-form .inputs .room-size {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .booking-form .inputs .room-size .adults p {
+      margin-left: 0px; }
+    .booking-form .inputs .room-size .adults input {
+      margin-left: 0px;
+      max-width: 30%; }
+    .booking-form .inputs .room-size .children p {
+      margin-left: -80px; }
+    .booking-form .inputs .room-size .children input {
+      margin-left: 0px;
+      max-width: 30%; }
+    .booking-form .inputs .room-size .rooms p {
+      margin-left: -80px; }
+    .booking-form .inputs .room-size .rooms input {
+      margin-left: 0px;
+      max-width: 30%; }
   .booking-form .inputs .message input {
     -webkit-box-pack: none;
     -ms-flex-pack: none;

@@ -51,7 +51,7 @@
     height: 150px;
     .hero {
       width: 100%;
-      height: 150px;
+      height: 220px;
       display: flex;
       .callout {
         h1 {
@@ -61,7 +61,7 @@
           display: none;
         }
         .button {
-          display: none;
+          width: 75%;
         }
       }
     }
