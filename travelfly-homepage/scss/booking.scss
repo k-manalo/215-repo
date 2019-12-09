@@ -1,0 +1,536 @@
+.bookingHero {
+  width: 100%;
+  height: 100px;
+  margin-top: 100px;
+
+  .bookingWrapper1 {
+    height: 413px;
+    width: 981px;
+    background-image: linear-gradient(
+        to right,
+        rgba(black, 0.5),
+        rgba(black, 0.5)
+      ),
+      url(../images/tour/tour-01.jpg);
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bookingWrapper2 {
+    height: 413px;
+    width: 981px;
+    background-image: linear-gradient(
+        to right,
+        rgba(black, 0.5),
+        rgba(black, 0.5)
+      ),
+      url(../images/tour/tour-02.jpg);
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bookingWrapper3 {
+    height: 413px;
+    width: 981px;
+    background-image: linear-gradient(
+        to right,
+        rgba(black, 0.5),
+        rgba(black, 0.5)
+      ),
+      url(../images/tour/tour-03.jpg);
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bookingWrapper4 {
+    height: 413px;
+    width: 981px;
+    background-image: linear-gradient(
+        to right,
+        rgba(black, 0.5),
+        rgba(black, 0.5)
+      ),
+      url(../images/tour/tour-04.jpg);
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bookingWrapper5 {
+    height: 413px;
+    width: 981px;
+    background-image: linear-gradient(
+        to right,
+        rgba(black, 0.5),
+        rgba(black, 0.5)
+      ),
+      url(../images/tour/tour-05.jpg);
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bookingWrapper6 {
+    height: 413px;
+    width: 981px;
+    background-image: linear-gradient(
+        to right,
+        rgba(black, 0.5),
+        rgba(black, 0.5)
+      ),
+      url(../images/tour/tour-06.jpg);
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bookingWrapper7 {
+    height: 413px;
+    width: 981px;
+    background-image: linear-gradient(
+        to right,
+        rgba(black, 0.5),
+        rgba(black, 0.5)
+      ),
+      url(../images/tour/tour-07.jpg);
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bookingWrapper8 {
+    height: 413px;
+    width: 981px;
+    background-image: linear-gradient(
+        to right,
+        rgba(black, 0.5),
+        rgba(black, 0.5)
+      ),
+      url(../images/tour/tour-08.jpg);
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bookingWrapper9 {
+    height: 413px;
+    width: 981px;
+    background-image: linear-gradient(
+        to right,
+        rgba(black, 0.5),
+        rgba(black, 0.5)
+      ),
+      url(../images/tour/tour-09.jpg);
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .packageTitle {
+    padding: 10px 25px;
+    h1 {
+      color: white;
+      font-size: 80px;
+    }
+  }
+  .starting {
+    padding-right: 25px;
+    margin-top: 250px;
+    h3 {
+      float: right;
+      color: white;
+      font-size: 30px;
+      margin-bottom: 50px;
+    }
+  }
+}
+.bookingPics {
+  margin-top: 1050px;
+  height: 300px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  //israel
+  .pic1 {
+    background-image: url(../images/tour/tour-israel/israel-tour-01.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pic2 {
+    background-image: url(../images/tour/tour-israel/israel-tour-02.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .pic3 {
+    background-image: url(../images/tour/tour-israel/israel-tour-03.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  //usa
+  .pic4 {
+    background-image: url(../images/tour/tour-usa/usa-tour-01.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pic5 {
+    background-image: url(../images/tour/tour-usa/usa-tour-02.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .pic6 {
+    background-image: url(../images/tour/tour-usa/usa-tour-03.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  //australia
+  .pic7 {
+    background-image: url(../images/tour/tour-aus/aus-tour-01.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pic8 {
+    background-image: url(../images/tour/tour-aus/aus-tour-02.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .pic9 {
+    background-image: url(../images/tour/tour-aus/aus-tour-03.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  //new zealand
+  .pic10 {
+    background-image: url(../images/tour/tour-nz/nz-tour-01.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pic11 {
+    background-image: url(../images/tour/tour-nz/nz-tour-02.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .pic12 {
+    background-image: url(../images/tour/tour-nz/nz-tour-03.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  //france
+  .pic13 {
+    background-image: url(../images/tour/tour-france/france-tour-01.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pic14 {
+    background-image: url(../images/tour/tour-france/france-tour-02.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .pic15 {
+    background-image: url(../images/tour/tour-france/france-tour-03.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  //egypt
+  .pic16 {
+    background-image: url(../images/tour/tour-egypt/egypt-tour-01.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pic17 {
+    background-image: url(../images/tour/tour-egypt/egypt-tour-02.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .pic18 {
+    background-image: url(../images/tour/tour-egypt/egypt-tour-03.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  //japan
+
+  .pic19 {
+    background-image: url(../images/tour/tour-japan/japan-tour-01.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pic20 {
+    background-image: url(../images/tour/tour-japan/japan-tour-02.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .pic21 {
+    background-image: url(../images/tour/tour-japan/japan-tour-03.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  //canada
+  .pic22 {
+    background-image: url(../images/tour/tour-canada/canada-tour-01.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pic23 {
+    background-image: url(../images/tour/tour-canada/canada-tour-02.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .pic24 {
+    background-image: url(../images/tour/tour-canada/canada-tour-03.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  //uae
+  .pic25 {
+    background-image: url(../images/tour/tour-uae/uae-tour-01.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pic26 {
+    background-image: url(../images/tour/tour-uae/uae-tour-02.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .pic27 {
+    background-image: url(../images/tour/tour-uae/uae-tour-03.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+.activityWrapper {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  .activity-title {
+    h3 {
+      font-size: 60px;
+    }
+  }
+  .titleLine {
+    border-bottom: 2px solid black;
+    width: 171px;
+    margin-bottom: 50px;
+  }
+  .activity {
+    margin-bottom: 50px;
+    p {
+      font-size: 16px;
+    }
+  }
+}
+.bookingButton {
+  margin: 0 auto;
+  width: 100%;
+  align-content: center;
+  text-align: center;
+
+  .bookNow {
+    background-color: #79addc;
+    border-radius: 40px;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 15;
+  }
+}
+
+@media (max-width: 768px) {
+  .bookingHero {
+    .bookingWrapper1 {
+      height: 175px;
+      width: 50%;
+    }
+    .bookingWrapper2 {
+      width: 50%;
+      height: 175px;
+    }
+    .bookingWrapper3 {
+      width: 50%;
+      height: 175px;
+    }
+    .bookingWrapper4 {
+      width: 50%;
+      height: 175px;
+    }
+    .bookingWrapper5 {
+      width: 50%;
+      height: 175px;
+    }
+    .bookingWrapper6 {
+      width: 50%;
+      height: 175px;
+    }
+    .bookingWrapper7 {
+      width: 50%;
+      height: 175px;
+    }
+    .bookingWrapper8 {
+      width: 50%;
+      height: 175px;
+    }
+    .bookingWrapper9 {
+      width: 50%;
+      height: 175px;
+    }
+    .packageTitle {
+      h1 {
+        font-size: 40px;
+      }
+    }
+    .starting {
+      display: none;
+    }
+  }
+  .bookingPics {
+    display: none;
+  }
+  .activityWrapper {
+    .activity-title {
+      h3 {
+        font-size: 30px;
+      }
+    }
+    .titleLine {
+      width: 20%;
+    }
+    .activity {
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+  .bookingButton {
+    .bookNow {
+      font-size: 10px;
+    }
+  }
+}
