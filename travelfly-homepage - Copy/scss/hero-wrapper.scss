@@ -1,0 +1,141 @@
+<<<<<<< HEAD
+.hero-wrapper {
+  width: 100%;
+  height: 500px;
+  background-color: black;
+  .hero {
+    height: 500px;
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(
+        to right,
+        rgba(black, 0.5),
+        rgba(black, 0.5)
+      ),
+      url(../images/hero.jpg);
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .callout {
+      width: 375px;
+      min-height: 200px;
+      text-align: center;
+      margin-top: 40px;
+
+      h1 {
+        font-size: 60px;
+        color: white;
+        margin-bottom: 35px;
+      }
+      .lipsum {
+        color: white;
+        margin-bottom: 50px;
+      }
+      .button {
+        padding: 10px 20px;
+        color: white;
+        font-size: 15px;
+        text-decoration: none;
+        background-color: #79addc;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-wrapper {
+    height: 150px;
+    .hero {
+      width: 100%;
+      height: 220px;
+      display: flex;
+      .callout {
+        h1 {
+          display: none;
+        }
+        .lipsum {
+          display: none;
+        }
+        .button {
+          width: 75%;
+        }
+      }
+    }
+  }
+}
+=======
+.hero-wrapper {
+  width: 100%;
+  height: 500px;
+  background-color: black;
+  .hero {
+    height: 500px;
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(
+        to right,
+        rgba(black, 0.5),
+        rgba(black, 0.5)
+      ),
+      url(../images/hero.jpg);
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .callout {
+      width: 375px;
+      min-height: 200px;
+      text-align: center;
+      margin-top: 40px;
+
+      h1 {
+        font-size: 60px;
+        color: white;
+        margin-bottom: 35px;
+      }
+      .lipsum {
+        color: white;
+        margin-bottom: 50px;
+      }
+      .button {
+        padding: 10px 20px;
+        color: white;
+        font-size: 15px;
+        text-decoration: none;
+        background-color: #79addc;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-wrapper {
+    height: 150px;
+    .hero {
+      width: 100%;
+      height: 220px;
+      display: flex;
+      .callout {
+        h1 {
+          display: none;
+        }
+        .lipsum {
+          display: none;
+        }
+        .button {
+          width: 75%;
+        }
+      }
+    }
+  }
+}
+>>>>>>> 7f25527e3fc17e4272f83611f0b289a9a23d3c22
