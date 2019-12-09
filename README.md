@@ -12,3 +12,6 @@ https://k-manalo.github.io/215-repo/travelfly-homepage/index.html
 
 Homework 4 (travelfly-adaptive):
 https://k-manalo.github.io/215-repo/travelfly-homepage/index.html
+
+Final (travel-fly-complete):
+https://k-manalo.github.io/215-repo/travelfly-homepage/index.html
