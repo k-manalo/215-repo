@@ -1,0 +1,111 @@
+.about {
+  margin-top: 200px;
+  width: 80%;
+  height: 375px;
+
+  margin: 0 auto;
+  .about-container {
+    margin-top: 200px;
+    border-bottom: 2px solid black;
+    width: 155px;
+    h1 {
+      font-size: 60px;
+    }
+  }
+  .aboutDesc {
+    margin-top: 40px;
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+.client {
+  width: 80%;
+  height: 400px;
+  margin: 0 auto;
+  .client-container {
+    width: 400px;
+    h2 {
+      font-size: 50px;
+    }
+  }
+  .shortline {
+    border-top: 2px solid black;
+    width: 225px;
+  }
+  .client-quote-container {
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+
+    .client-img {
+      height: 175px;
+      width: 300px;
+      background-image: url(../images/about-client-01.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .client-img2 {
+      height: 175px;
+      width: 300px;
+      background-image: url(../images/about-client-02.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .client-content {
+      margin-left: 25px;
+      .client-quote {
+        width: 350px;
+        margin: 0 auto;
+        p {
+          font-size: 16px;
+        }
+      }
+      .client-name {
+        margin-top: 20px;
+        margin-left: 300px;
+        font-size: 20px;
+        color: #79addc;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    .about-container {
+      width: 20%;
+      h1 {
+        font-size: 30px;
+      }
+    }
+  }
+  .client {
+    .client-container {
+      h2 {
+        font-size: 30px;
+      }
+    }
+    .shortline {
+      width: 30%;
+    }
+  }
+  .client-quote-container {
+    .client-img {
+      display: none;
+    }
+    .client-img2 {
+      display: none;
+    }
+    .client-content {
+      .client-quote {
+        p {
+          font-size: 8px;
+        }
+      }
+    }
+  }
+}

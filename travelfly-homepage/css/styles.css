@@ -82,7 +82,11 @@ a {
     height: 150px; }
     .hero-wrapper .hero {
       width: 100%;
+<<<<<<< HEAD
+      height: 220px;
+=======
       height: 150px;
+>>>>>>> f68dccdf72e15640739db33ccc2f23800448b66a
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; }
@@ -91,7 +95,11 @@ a {
       .hero-wrapper .hero .callout .lipsum {
         display: none; }
       .hero-wrapper .hero .callout .button {
+<<<<<<< HEAD
+        width: 75%; } }
+=======
         display: none; } }
+>>>>>>> f68dccdf72e15640739db33ccc2f23800448b66a
 
 nav {
   width: 80%;
@@ -132,6 +140,15 @@ nav {
         text-decoration: none;
         margin-right: 10px;
         margin-left: 10px; }
+<<<<<<< HEAD
+      nav .link-wrap .links .alta {
+        color: black;
+        font-size: 15px;
+        text-decoration: none;
+        margin-right: 10px;
+        margin-left: 10px; }
+=======
+>>>>>>> f68dccdf72e15640739db33ccc2f23800448b66a
     nav .link-wrap span {
       margin: 0 10px;
       color: #79addc;
@@ -143,7 +160,11 @@ nav {
 
 @media (max-width: 768px) {
   nav {
+<<<<<<< HEAD
+    width: 75%; }
+=======
     width: 300px; }
+>>>>>>> f68dccdf72e15640739db33ccc2f23800448b66a
     nav .link-wrap {
       margin-top: 250px;
       padding-top: 50px; }
@@ -287,20 +308,37 @@ nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+<<<<<<< HEAD
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+=======
     -ms-flex-line-pack: center;
     align-content: center;
+>>>>>>> f68dccdf72e15640739db33ccc2f23800448b66a
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+<<<<<<< HEAD
+    margin-top: 125px; }
+=======
     margin-top: 25px; }
+>>>>>>> f68dccdf72e15640739db33ccc2f23800448b66a
     .countries .israel {
       height: 200px; }
       .countries .israel .learn-more {
         margin-top: 10px; }
     .countries .usa {
       margin-top: 50px;
+<<<<<<< HEAD
+      margin-left: 57px;
+=======
       margin-left: 0;
+>>>>>>> f68dccdf72e15640739db33ccc2f23800448b66a
       height: 200px; }
       .countries .usa .learn-more {
         margin-top: 10px; }
@@ -645,6 +683,27 @@ nav {
     width: 75%; }
   .booking-form .inputs .checkout {
     width: 75%; }
+<<<<<<< HEAD
+  .booking-form .inputs .room-size {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .booking-form .inputs .room-size .adults p {
+      margin-left: 0px; }
+    .booking-form .inputs .room-size .adults input {
+      margin-left: 0px;
+      max-width: 30%; }
+    .booking-form .inputs .room-size .children p {
+      margin-left: -80px; }
+    .booking-form .inputs .room-size .children input {
+      margin-left: 0px;
+      max-width: 30%; }
+    .booking-form .inputs .room-size .rooms p {
+      margin-left: -80px; }
+    .booking-form .inputs .room-size .rooms input {
+      margin-left: 0px;
+      max-width: 30%; }
+=======
   .booking-form .inputs .room-size .adults p {
     margin-left: 0px; }
   .booking-form .inputs .room-size .adults input {
@@ -660,6 +719,7 @@ nav {
   .booking-form .inputs .room-size .rooms input {
     margin-left: 0px;
     max-width: 30%; }
+>>>>>>> f68dccdf72e15640739db33ccc2f23800448b66a
   .booking-form .inputs .message input {
     -webkit-box-pack: none;
     -ms-flex-pack: none;
@@ -705,10 +765,1392 @@ nav {
         text-decoration: none;
         color: white; }
 
+<<<<<<< HEAD
+.altfooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 125px;
+  width: 100%;
+  height: 100px;
+  background-color: #79addc; }
+  .altfooter .footer-container {
+    -ms-flex-line-pack: center;
+    align-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto; }
+    .altfooter .footer-container .logo {
+      margin-top: 10px; }
+    .altfooter .footer-container .copyright {
+      margin-top: 25px;
+      font-size: 12px;
+      color: white;
+      margin-right: 300px;
+      margin-left: 300px; }
+    .altfooter .footer-container .socialmedia {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .altfooter .footer-container .socialmedia a {
+        margin-left: 10px;
+        margin-top: 25px;
+        float: right;
+        height: 23px;
+        width: 23px;
+        text-decoration: none;
+        color: white; }
+
+=======
+>>>>>>> f68dccdf72e15640739db33ccc2f23800448b66a
 @media (max-width: 768px) {
   .footer {
     margin-top: 500px;
     height: 100px; }
     .footer .footer-container .copyright {
       margin-left: 50px;
+<<<<<<< HEAD
+      margin-right: 50px; }
+  .altfooter {
+    margin-top: 500px;
+    height: 100px; }
+    .altfooter .footer-container .copyright {
+      margin-left: 50px;
       margin-right: 50px; } }
+
+.alt-wrapper {
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .alt-wrapper nav {
+    width: 80%;
+    height: 90px;
+    position: relative;
+    margin-top: 45px;
+    border-bottom: 2px solid black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+
+.about {
+  margin-top: 200px;
+  width: 80%;
+  height: 375px;
+  margin: 0 auto; }
+  .about .about-container {
+    margin-top: 200px;
+    border-bottom: 2px solid black;
+    width: 155px; }
+    .about .about-container h1 {
+      font-size: 60px; }
+  .about .aboutDesc {
+    margin-top: 40px; }
+    .about .aboutDesc p {
+      font-size: 16px; }
+
+.client {
+  width: 80%;
+  height: 400px;
+  margin: 0 auto; }
+  .client .client-container {
+    width: 400px; }
+    .client .client-container h2 {
+      font-size: 50px; }
+  .client .shortline {
+    border-top: 2px solid black;
+    width: 225px; }
+  .client .client-quote-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 40px;
+    width: 100%; }
+    .client .client-quote-container .client-img {
+      height: 175px;
+      width: 300px;
+      background-image: url(../images/about-client-01.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .client .client-quote-container .client-img2 {
+      height: 175px;
+      width: 300px;
+      background-image: url(../images/about-client-02.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .client .client-quote-container .client-content {
+      margin-left: 25px; }
+      .client .client-quote-container .client-content .client-quote {
+        width: 350px;
+        margin: 0 auto; }
+        .client .client-quote-container .client-content .client-quote p {
+          font-size: 16px; }
+      .client .client-quote-container .client-content .client-name {
+        margin-top: 20px;
+        margin-left: 300px;
+        font-size: 20px;
+        color: #79addc; }
+
+@media (max-width: 768px) {
+  .about .about-container {
+    width: 20%; }
+    .about .about-container h1 {
+      font-size: 30px; }
+  .client .client-container h2 {
+    font-size: 30px; }
+  .client .shortline {
+    width: 30%; }
+  .client-quote-container .client-img {
+    display: none; }
+  .client-quote-container .client-img2 {
+    display: none; }
+  .client-quote-container .client-content .client-quote p {
+    font-size: 8px; } }
+
+.special-offers {
+  width: 80%;
+  height: 500px;
+  margin: 0 auto; }
+  .special-offers .offers-title {
+    margin-top: 100px; }
+    .special-offers .offers-title h2 {
+      font-size: 30px; }
+  .special-offers .titleLine {
+    margin-top: 25px;
+    border-bottom: 2px solid black;
+    width: 200px; }
+  .special-offers .barcaWrapper {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 25px; }
+    .special-offers .barcaWrapper .barca-img {
+      height: 287px;
+      width: 200px;
+      background-image: url(../images/special-offer-01.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .special-offers .barcaWrapper .titleWrapper {
+      margin-left: 40px; }
+      .special-offers .barcaWrapper .titleWrapper .title-disc {
+        margin: 0 auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        .special-offers .barcaWrapper .titleWrapper .title-disc .barca-title h2 {
+          font-size: 30px; }
+        .special-offers .barcaWrapper .titleWrapper .title-disc .barca-disc {
+          margin-left: 10px;
+          margin-top: 5px; }
+          .special-offers .barcaWrapper .titleWrapper .title-disc .barca-disc h3 {
+            font-size: 20px;
+            color: orange; }
+      .special-offers .barcaWrapper .titleWrapper .barcaLine {
+        border-bottom: 2px solid black;
+        width: 200px;
+        margin-top: 10px; }
+      .special-offers .barcaWrapper .titleWrapper .barcaDesc {
+        margin-top: 20px;
+        width: 300px; }
+        .special-offers .barcaWrapper .titleWrapper .barcaDesc p {
+          font-size: 16px; }
+      .special-offers .barcaWrapper .titleWrapper .barcaMore {
+        margin-top: 100px; }
+        .special-offers .barcaWrapper .titleWrapper .barcaMore .button {
+          border-radius: 25px;
+          padding: 10px 20px;
+          color: white;
+          font-size: 15px;
+          text-decoration: none;
+          background-color: #79addc;
+          text-align: center; }
+  .special-offers .bangWrapper {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 75px; }
+    .special-offers .bangWrapper .bang-img {
+      height: 287px;
+      width: 200px;
+      background-image: url(../images/special-offer-02.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .special-offers .bangWrapper .titleWrapper {
+      margin-left: 40px; }
+      .special-offers .bangWrapper .titleWrapper .title-disc {
+        margin: 0 auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        .special-offers .bangWrapper .titleWrapper .title-disc .bang-title h2 {
+          font-size: 30px; }
+        .special-offers .bangWrapper .titleWrapper .title-disc .bang-disc {
+          margin-left: 10px;
+          margin-top: 5px; }
+          .special-offers .bangWrapper .titleWrapper .title-disc .bang-disc h3 {
+            font-size: 20px;
+            color: orange; }
+      .special-offers .bangWrapper .titleWrapper .bangLine {
+        border-bottom: 2px solid black;
+        width: 200px;
+        margin-top: 10px; }
+      .special-offers .bangWrapper .titleWrapper .bangDesc {
+        margin-top: 20px;
+        width: 300px; }
+        .special-offers .bangWrapper .titleWrapper .bangDesc p {
+          font-size: 16px; }
+      .special-offers .bangWrapper .titleWrapper .bangMore {
+        margin-top: 100px; }
+        .special-offers .bangWrapper .titleWrapper .bangMore .button {
+          border-radius: 25px;
+          padding: 10px 20px;
+          color: white;
+          font-size: 15px;
+          text-decoration: none;
+          background-color: #79addc;
+          text-align: center; }
+
+@media (max-width: 768px) {
+  .special-offers .offers-title h2 {
+    font-size: 20px; }
+  .special-offers .titleLine {
+    width: 20%; }
+  .special-offers .barcaWrapper {
+    width: 80%; }
+    .special-offers .barcaWrapper .barca-img {
+      display: none; }
+    .special-offers .barcaWrapper .titleWrapper .title-disc .barca-title h2 {
+      font-size: 20px; }
+    .special-offers .barcaWrapper .titleWrapper .barcaLine {
+      width: 40%; }
+    .special-offers .barcaWrapper .titleWrapper .barcaDesc {
+      width: 50%; }
+  .special-offers .bangWrapper {
+    width: 80%; }
+    .special-offers .bangWrapper .bang-img {
+      display: none; }
+    .special-offers .bangWrapper .titleWrapper .title-disc .bang-title h2 {
+      font-size: 20px; }
+    .special-offers .bangWrapper .titleWrapper .bangLine {
+      width: 40%; }
+    .special-offers .bangWrapper .titleWrapper .bangDesc {
+      width: 50%; } }
+
+.tours-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .tours-wrapper .tours-hero {
+    margin: 0 auto;
+    height: 200px;
+    width: 980px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tours-header.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tours-header.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tours-header.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tours-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .tours-wrapper .tours-hero .tours-title h1 {
+      padding-top: 60px;
+      text-align: center;
+      color: white;
+      font-size: 60px; }
+
+.tourCountries {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px;
+  margin-top: 65px; }
+  .tourCountries .israel {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-01.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+    height: 304px;
+    width: 236px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .tourCountries .israel .country {
+      color: white;
+      font-size: 60px;
+      margin: flex;
+      text-align: center;
+      margin-top: 50px; }
+    .tourCountries .israel .price {
+      color: white;
+      font-size: 30px;
+      margin-left: 40px; }
+    .tourCountries .israel .learn-more {
+      border-radius: 25px;
+      margin-top: 75px;
+      margin-left: 40px;
+      padding: 10px 20px;
+      text-align: center;
+      background-color: #79addc;
+      width: 150px;
+      height: 40px; }
+      .tourCountries .israel .learn-more a {
+        color: white;
+        text-decoration: none; }
+  .tourCountries .usa {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-02.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+    height: 304px;
+    width: 236px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 56px;
+    margin-right: 56px; }
+    .tourCountries .usa .country {
+      color: white;
+      font-size: 60px;
+      margin: flex;
+      text-align: center;
+      margin-top: 50px; }
+    .tourCountries .usa .price {
+      color: white;
+      font-size: 30px;
+      margin-left: 50px; }
+    .tourCountries .usa .learn-more {
+      border-radius: 25px;
+      margin-top: 75px;
+      margin-left: 40px;
+      padding: 10px 20px;
+      text-align: center;
+      background-color: #79addc;
+      width: 150px;
+      height: 40px; }
+      .tourCountries .usa .learn-more a {
+        color: white;
+        text-decoration: none; }
+  .tourCountries .australia {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-03.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+    height: 304px;
+    width: 236px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .tourCountries .australia .country {
+      color: white;
+      font-size: 60px;
+      margin: flex;
+      text-align: center;
+      margin-top: 50px; }
+    .tourCountries .australia .price {
+      color: white;
+      font-size: 30px;
+      margin-left: 50px; }
+    .tourCountries .australia .learn-more {
+      border-radius: 25px;
+      margin-top: 75px;
+      margin-left: 40px;
+      padding: 10px 20px;
+      text-align: center;
+      background-color: #79addc;
+      width: 150px;
+      height: 40px; }
+      .tourCountries .australia .learn-more a {
+        color: white;
+        text-decoration: none; }
+
+.tourCountries2 {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px;
+  margin-top: 65px; }
+  .tourCountries2 .israel {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-04.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+    height: 304px;
+    width: 236px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .tourCountries2 .israel .country {
+      color: white;
+      font-size: 60px;
+      margin: flex;
+      text-align: center;
+      margin-top: 20px; }
+    .tourCountries2 .israel .price {
+      color: white;
+      font-size: 30px;
+      margin-left: 40px; }
+    .tourCountries2 .israel .learn-more {
+      border-radius: 25px;
+      margin-top: 55px;
+      margin-left: 40px;
+      padding: 10px 20px;
+      text-align: center;
+      background-color: #79addc;
+      width: 150px;
+      height: 40px; }
+      .tourCountries2 .israel .learn-more a {
+        color: white;
+        text-decoration: none; }
+  .tourCountries2 .usa {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-05.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+    height: 304px;
+    width: 236px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 56px;
+    margin-right: 56px; }
+    .tourCountries2 .usa .country {
+      color: white;
+      font-size: 60px;
+      margin: flex;
+      text-align: center;
+      margin-top: 50px; }
+    .tourCountries2 .usa .price {
+      color: white;
+      font-size: 30px;
+      margin-left: 50px; }
+    .tourCountries2 .usa .learn-more {
+      border-radius: 25px;
+      margin-top: 75px;
+      margin-left: 40px;
+      padding: 10px 20px;
+      text-align: center;
+      background-color: #79addc;
+      width: 150px;
+      height: 40px; }
+      .tourCountries2 .usa .learn-more a {
+        color: white;
+        text-decoration: none; }
+  .tourCountries2 .australia {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-06.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+    height: 304px;
+    width: 236px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .tourCountries2 .australia .country {
+      color: white;
+      font-size: 60px;
+      margin: flex;
+      text-align: center;
+      margin-top: 50px; }
+    .tourCountries2 .australia .price {
+      color: white;
+      font-size: 30px;
+      margin-left: 50px; }
+    .tourCountries2 .australia .learn-more {
+      border-radius: 25px;
+      margin-top: 75px;
+      margin-left: 40px;
+      padding: 10px 20px;
+      text-align: center;
+      background-color: #79addc;
+      width: 150px;
+      height: 40px; }
+      .tourCountries2 .australia .learn-more a {
+        color: white;
+        text-decoration: none; }
+
+.tourCountries3 {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: -200px;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px;
+  margin-top: 65px; }
+  .tourCountries3 .israel {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-07.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
+    height: 304px;
+    width: 236px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .tourCountries3 .israel .country {
+      color: white;
+      font-size: 60px;
+      margin: flex;
+      text-align: center;
+      margin-top: 50px; }
+    .tourCountries3 .israel .price {
+      color: white;
+      font-size: 30px;
+      margin-left: 40px; }
+    .tourCountries3 .israel .learn-more {
+      border-radius: 25px;
+      margin-top: 75px;
+      margin-left: 40px;
+      padding: 10px 20px;
+      text-align: center;
+      background-color: #79addc;
+      width: 150px;
+      height: 40px; }
+      .tourCountries3 .israel .learn-more a {
+        color: white;
+        text-decoration: none; }
+  .tourCountries3 .usa {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-08.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
+    height: 304px;
+    width: 236px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 56px;
+    margin-right: 56px; }
+    .tourCountries3 .usa .country {
+      color: white;
+      font-size: 60px;
+      margin: flex;
+      text-align: center;
+      margin-top: 50px; }
+    .tourCountries3 .usa .price {
+      color: white;
+      font-size: 30px;
+      margin-left: 50px; }
+    .tourCountries3 .usa .learn-more {
+      border-radius: 25px;
+      margin-top: 75px;
+      margin-left: 40px;
+      padding: 10px 20px;
+      text-align: center;
+      background-color: #79addc;
+      width: 150px;
+      height: 40px; }
+      .tourCountries3 .usa .learn-more a {
+        color: white;
+        text-decoration: none; }
+  .tourCountries3 .australia {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-09.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
+    height: 304px;
+    width: 236px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .tourCountries3 .australia .country {
+      color: white;
+      font-size: 60px;
+      margin: flex;
+      text-align: center;
+      margin-top: 50px; }
+    .tourCountries3 .australia .price {
+      color: white;
+      font-size: 30px;
+      margin-left: 50px; }
+    .tourCountries3 .australia .learn-more {
+      border-radius: 25px;
+      margin-top: 75px;
+      margin-left: 40px;
+      padding: 10px 20px;
+      text-align: center;
+      background-color: #79addc;
+      width: 150px;
+      height: 40px; }
+      .tourCountries3 .australia .learn-more a {
+        color: white;
+        text-decoration: none; }
+
+@media (max-width: 768px) {
+  .tours-wrapper .tours-hero {
+    height: 100px; }
+    .tours-wrapper .tours-hero .tours-title h1 {
+      padding-top: 30px;
+      font-size: 40px; }
+  .tourCountries {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 25px; }
+    .tourCountries .usa {
+      margin-top: 25px; }
+    .tourCountries .australia {
+      margin-top: 25px; }
+  .tourCountries2 {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 25px; }
+    .tourCountries2 .usa {
+      margin-top: 25px; }
+    .tourCountries2 .australia {
+      margin-top: 25px; }
+  .tourCountries3 {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 25px; }
+    .tourCountries3 .usa {
+      margin-top: 25px; }
+    .tourCountries3 .australia {
+      margin-top: 25px; } }
+
+.blogWrapper {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px; }
+  .blogWrapper .blog-title h3 {
+    font-size: 30px; }
+  .blogWrapper .titleLine {
+    border-bottom: 2px solid black;
+    width: 100px;
+    margin-bottom: 50px; }
+
+.eventWrapper {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%; }
+  .eventWrapper .eventDate {
+    margin-right: 25px;
+    height: 60px;
+    width: 60px;
+    background-color: #79addc; }
+    .eventWrapper .eventDate .eventDay {
+      padding-top: 10px;
+      padding-left: 15px;
+      color: white;
+      font-size: 22px; }
+    .eventWrapper .eventDate .eventMonth {
+      font-size: 12px;
+      padding-left: 20px;
+      color: white; }
+  .eventWrapper .entryWrapper .eventBanner {
+    height: 250px;
+    width: 900px;
+    background-image: url(../images/blog.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .eventWrapper .entryWrapper .blogEntry {
+    margin-top: 20px; }
+    .eventWrapper .entryWrapper .blogEntry p {
+      font-size: 15px; }
+  .eventWrapper .entryWrapper .entry {
+    width: 500px;
+    margin-bottom: 100px; }
+    .eventWrapper .entryWrapper .entry p {
+      color: #79addc;
+      font-size: 13px; }
+
+.eventWrapper2 {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%; }
+  .eventWrapper2 .eventDate {
+    margin-right: 25px;
+    height: 60px;
+    width: 60px;
+    background-color: #79addc; }
+    .eventWrapper2 .eventDate .eventDay {
+      padding-top: 10px;
+      padding-left: 15px;
+      color: white;
+      font-size: 22px; }
+    .eventWrapper2 .eventDate .eventMonth {
+      font-size: 12px;
+      padding-left: 20px;
+      color: white; }
+  .eventWrapper2 .entryWrapper .eventBanner {
+    height: 250px;
+    width: 900px;
+    background-image: url(../images/blog.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .eventWrapper2 .entryWrapper .blogEntry {
+    margin-top: 20px; }
+    .eventWrapper2 .entryWrapper .blogEntry p {
+      font-size: 15px; }
+  .eventWrapper2 .entryWrapper .entry {
+    width: 500px;
+    margin-bottom: 20px; }
+    .eventWrapper2 .entryWrapper .entry p {
+      color: #79addc;
+      font-size: 13px; }
+
+@media (max-width: 768px) {
+  .blogWrapper .blog-title h3 {
+    font-size: 20px; }
+  .blogWrapper .titleLine {
+    width: 10%; }
+  .eventWrapper .eventDate {
+    height: 30px;
+    width: 30px; }
+    .eventWrapper .eventDate .eventDay {
+      font-size: 11px; }
+    .eventWrapper .eventDate .eventMonth {
+      font-size: 11px; }
+  .eventWrapper .entryWrapper .eventBanner {
+    width: 80%; }
+  .eventWrapper .entryWrapper .entry {
+    width: 50%; }
+  .eventWrapper2 .eventDate {
+    height: 30px;
+    width: 30px; }
+    .eventWrapper2 .eventDate .eventDay {
+      font-size: 11px; }
+    .eventWrapper2 .eventDate .eventMonth {
+      font-size: 11px; }
+  .eventWrapper2 .entryWrapper .eventBanner {
+    width: 80%; }
+  .eventWrapper2 .entryWrapper .entry {
+    width: 50%; } }
+
+.contactWrapper {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px; }
+  .contactWrapper .contact-title h3 {
+    font-size: 30px; }
+  .contactWrapper .titleLine {
+    border-bottom: 2px solid black;
+    width: 159px;
+    margin-bottom: 50px; }
+
+.cformWrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .cformWrapper .location .contact-address {
+    margin-top: 20px; }
+    .cformWrapper .location .contact-address h5 {
+      font-size: 18px; }
+  .cformWrapper .contact-form .contactName {
+    margin-left: 35px; }
+    .cformWrapper .contact-form .contactName input {
+      width: 529px;
+      height: 60px;
+      font-size: 18px;
+      padding-left: 10px;
+      background-color: #f5f5f5;
+      border: 0px solid #707070; }
+      .cformWrapper .contact-form .contactName input::-webkit-input-placeholder {
+        color: #707070; }
+      .cformWrapper .contact-form .contactName input:-ms-input-placeholder {
+        color: #707070; }
+      .cformWrapper .contact-form .contactName input::-ms-input-placeholder {
+        color: #707070; }
+      .cformWrapper .contact-form .contactName input::placeholder {
+        color: #707070; }
+  .cformWrapper .contact-form .contactEmail {
+    margin-left: 35px;
+    margin-top: 25px; }
+    .cformWrapper .contact-form .contactEmail input {
+      width: 529px;
+      height: 60px;
+      font-size: 18px;
+      padding-left: 10px;
+      border: 0px solid #707070;
+      background-color: #f5f5f5; }
+      .cformWrapper .contact-form .contactEmail input::-webkit-input-placeholder {
+        color: #707070; }
+      .cformWrapper .contact-form .contactEmail input:-ms-input-placeholder {
+        color: #707070; }
+      .cformWrapper .contact-form .contactEmail input::-ms-input-placeholder {
+        color: #707070; }
+      .cformWrapper .contact-form .contactEmail input::placeholder {
+        color: #707070; }
+  .cformWrapper .contact-form .contactCompany {
+    margin-top: 25px;
+    margin-left: 35px; }
+    .cformWrapper .contact-form .contactCompany input {
+      width: 529px;
+      height: 60px;
+      font-size: 18px;
+      padding-left: 10px;
+      border: 0px solid #707070;
+      background-color: #f5f5f5; }
+      .cformWrapper .contact-form .contactCompany input::-webkit-input-placeholder {
+        color: #707070; }
+      .cformWrapper .contact-form .contactCompany input:-ms-input-placeholder {
+        color: #707070; }
+      .cformWrapper .contact-form .contactCompany input::-ms-input-placeholder {
+        color: #707070; }
+      .cformWrapper .contact-form .contactCompany input::placeholder {
+        color: #707070; }
+  .cformWrapper .contact-form .contactMessage {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-bottom: 25px; }
+    .cformWrapper .contact-form .contactMessage input {
+      width: 529px;
+      height: 185px;
+      font-size: 18px;
+      padding-left: 10px;
+      padding-bottom: 150px;
+      border: 0px solid #707070;
+      background-color: #f5f5f5; }
+      .cformWrapper .contact-form .contactMessage input::-webkit-input-placeholder {
+        color: #707070; }
+      .cformWrapper .contact-form .contactMessage input:-ms-input-placeholder {
+        color: #707070; }
+      .cformWrapper .contact-form .contactMessage input::-ms-input-placeholder {
+        color: #707070; }
+      .cformWrapper .contact-form .contactMessage input::placeholder {
+        color: #707070; }
+  .cformWrapper .contact-form .contact-button {
+    margin-left: 35px;
+    width: 167px;
+    height: 60px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: #79addc; }
+
+@media (max-width: 768px) {
+  .contactWrapper .contact-title h3 {
+    font-size: 20px; }
+  .contactWrapper .titleLine {
+    width: 50%; }
+  .cformWrapper .location .map {
+    display: none; }
+  .cformWrapper .location .contact-address h5 {
+    font-size: 12px; }
+  .cformWrapper .contact-form .contactName input {
+    width: 80%; }
+  .cformWrapper .contact-form .contactEmail input {
+    width: 80%; }
+  .cformWrapper .contact-form .contactCompany input {
+    width: 80%; }
+  .cformWrapper .contact-form .contactMessage input {
+    margin-left: -50px;
+    width: 80%; } }
+
+.bookingHero {
+  width: 100%;
+  height: 100px;
+  margin-top: 100px; }
+  .bookingHero .bookingWrapper1 {
+    height: 413px;
+    width: 981px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-01.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .bookingHero .bookingWrapper2 {
+    height: 413px;
+    width: 981px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-02.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .bookingHero .bookingWrapper3 {
+    height: 413px;
+    width: 981px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-03.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .bookingHero .bookingWrapper4 {
+    height: 413px;
+    width: 981px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-04.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .bookingHero .bookingWrapper5 {
+    height: 413px;
+    width: 981px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-05.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .bookingHero .bookingWrapper6 {
+    height: 413px;
+    width: 981px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-06.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .bookingHero .bookingWrapper7 {
+    height: 413px;
+    width: 981px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-07.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .bookingHero .bookingWrapper8 {
+    height: 413px;
+    width: 981px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-08.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .bookingHero .bookingWrapper9 {
+    height: 413px;
+    width: 981px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-09.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .bookingHero .packageTitle {
+    padding: 10px 25px; }
+    .bookingHero .packageTitle h1 {
+      color: white;
+      font-size: 80px; }
+  .bookingHero .starting {
+    padding-right: 25px;
+    margin-top: 250px; }
+    .bookingHero .starting h3 {
+      float: right;
+      color: white;
+      font-size: 30px;
+      margin-bottom: 50px; }
+
+.bookingPics {
+  margin-top: 1050px;
+  height: 300px;
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .bookingPics .pic1 {
+    background-image: url(../images/tour/tour-israel/israel-tour-01.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .bookingPics .pic2 {
+    background-image: url(../images/tour/tour-israel/israel-tour-02.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px; }
+  .bookingPics .pic3 {
+    background-image: url(../images/tour/tour-israel/israel-tour-03.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .bookingPics .pic4 {
+    background-image: url(../images/tour/tour-usa/usa-tour-01.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .bookingPics .pic5 {
+    background-image: url(../images/tour/tour-usa/usa-tour-02.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px; }
+  .bookingPics .pic6 {
+    background-image: url(../images/tour/tour-usa/usa-tour-03.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .bookingPics .pic7 {
+    background-image: url(../images/tour/tour-aus/aus-tour-01.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .bookingPics .pic8 {
+    background-image: url(../images/tour/tour-aus/aus-tour-02.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px; }
+  .bookingPics .pic9 {
+    background-image: url(../images/tour/tour-aus/aus-tour-03.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .bookingPics .pic10 {
+    background-image: url(../images/tour/tour-nz/nz-tour-01.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .bookingPics .pic11 {
+    background-image: url(../images/tour/tour-nz/nz-tour-02.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px; }
+  .bookingPics .pic12 {
+    background-image: url(../images/tour/tour-nz/nz-tour-03.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .bookingPics .pic13 {
+    background-image: url(../images/tour/tour-france/france-tour-01.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .bookingPics .pic14 {
+    background-image: url(../images/tour/tour-france/france-tour-02.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px; }
+  .bookingPics .pic15 {
+    background-image: url(../images/tour/tour-france/france-tour-03.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .bookingPics .pic16 {
+    background-image: url(../images/tour/tour-egypt/egypt-tour-01.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .bookingPics .pic17 {
+    background-image: url(../images/tour/tour-egypt/egypt-tour-02.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px; }
+  .bookingPics .pic18 {
+    background-image: url(../images/tour/tour-egypt/egypt-tour-03.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .bookingPics .pic19 {
+    background-image: url(../images/tour/tour-japan/japan-tour-01.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .bookingPics .pic20 {
+    background-image: url(../images/tour/tour-japan/japan-tour-02.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px; }
+  .bookingPics .pic21 {
+    background-image: url(../images/tour/tour-japan/japan-tour-03.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .bookingPics .pic22 {
+    background-image: url(../images/tour/tour-canada/canada-tour-01.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .bookingPics .pic23 {
+    background-image: url(../images/tour/tour-canada/canada-tour-02.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px; }
+  .bookingPics .pic24 {
+    background-image: url(../images/tour/tour-canada/canada-tour-03.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .bookingPics .pic25 {
+    background-image: url(../images/tour/tour-uae/uae-tour-01.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .bookingPics .pic26 {
+    background-image: url(../images/tour/tour-uae/uae-tour-02.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px; }
+  .bookingPics .pic27 {
+    background-image: url(../images/tour/tour-uae/uae-tour-03.jpg);
+    width: 298px;
+    height: 347px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+.activityWrapper {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px; }
+  .activityWrapper .activity-title h3 {
+    font-size: 60px; }
+  .activityWrapper .titleLine {
+    border-bottom: 2px solid black;
+    width: 171px;
+    margin-bottom: 50px; }
+  .activityWrapper .activity {
+    margin-bottom: 50px; }
+    .activityWrapper .activity p {
+      font-size: 16px; }
+
+.bookingButton {
+  margin: 0 auto;
+  width: 100%;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  text-align: center; }
+  .bookingButton .bookNow {
+    background-color: #79addc;
+    border-radius: 40px;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 15; }
+
+@media (max-width: 768px) {
+  .bookingHero .bookingWrapper1 {
+    height: 175px;
+    width: 50%; }
+  .bookingHero .bookingWrapper2 {
+    width: 50%;
+    height: 175px; }
+  .bookingHero .bookingWrapper3 {
+    width: 50%;
+    height: 175px; }
+  .bookingHero .bookingWrapper4 {
+    width: 50%;
+    height: 175px; }
+  .bookingHero .bookingWrapper5 {
+    width: 50%;
+    height: 175px; }
+  .bookingHero .bookingWrapper6 {
+    width: 50%;
+    height: 175px; }
+  .bookingHero .bookingWrapper7 {
+    width: 50%;
+    height: 175px; }
+  .bookingHero .bookingWrapper8 {
+    width: 50%;
+    height: 175px; }
+  .bookingHero .bookingWrapper9 {
+    width: 50%;
+    height: 175px; }
+  .bookingHero .packageTitle h1 {
+    font-size: 40px; }
+  .bookingHero .starting {
+    display: none; }
+  .bookingPics {
+    display: none; }
+  .activityWrapper .activity-title h3 {
+    font-size: 30px; }
+  .activityWrapper .titleLine {
+    width: 20%; }
+  .activityWrapper .activity p {
+    font-size: 12px; }
+  .bookingButton .bookNow {
+    font-size: 10px; } }
+=======
+      margin-right: 50px; } }
+>>>>>>> f68dccdf72e15640739db33ccc2f23800448b66a

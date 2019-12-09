@@ -1,3 +1,92 @@
+<<<<<<< HEAD
+nav {
+  width: 80%;
+  height: 90px;
+  position: relative;
+  margin-top: 45px;
+  border-bottom: 2px solid white;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-between;
+  .link-wrap {
+    display: flex;
+    align-items: center;
+    .links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      a {
+        color: white;
+        font-size: 15px;
+        text-decoration: none;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+      .alta {
+        color: black;
+        font-size: 15px;
+        text-decoration: none;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+    }
+
+    span {
+      margin: 0 10px;
+      color: #79addc;
+      font-size: 20px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+  .navicon {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    width: 75%;
+    .link-wrap {
+      margin-top: 250px;
+      padding-top: 50px;
+
+      &:hover > .links {
+        display: flex;
+      }
+
+      .links {
+        margin-top: 60px;
+        display: none;
+        background-color: #79addc;
+        flex-direction: column;
+        margin-right: -80px;
+        width: 125px;
+
+        a {
+          margin-bottom: 20px;
+        }
+
+        span {
+          display: none;
+          // visibility: hidden;
+        }
+      }
+
+      .navicon {
+        margin-top: -260px;
+        display: block;
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+//altNav
+=======
 nav {
   width: 80%;
   height: 90px;
@@ -76,3 +165,4 @@ nav {
     }
   }
 }
+>>>>>>> f68dccdf72e15640739db33ccc2f23800448b66a

@@ -1,0 +1,188 @@
+.special-offers {
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  .offers-title {
+    margin-top: 100px;
+
+    h2 {
+      font-size: 30px;
+    }
+  }
+  .titleLine {
+    margin-top: 25px;
+    border-bottom: 2px solid black;
+    width: 200px;
+  }
+  .barcaWrapper {
+    margin: 0 auto;
+    display: flex;
+    margin-top: 25px;
+    .barca-img {
+      height: 287px;
+      width: 200px;
+      background-image: url(../images/special-offer-01.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .titleWrapper {
+      margin-left: 40px;
+      .title-disc {
+        margin: 0 auto;
+        display: flex;
+        .barca-title {
+          h2 {
+            font-size: 30px;
+          }
+        }
+        .barca-disc {
+          margin-left: 10px;
+          margin-top: 5px;
+          h3 {
+            font-size: 20px;
+            color: orange;
+          }
+        }
+      }
+      .barcaLine {
+        border-bottom: 2px solid black;
+        width: 200px;
+        margin-top: 10px;
+      }
+      .barcaDesc {
+        margin-top: 20px;
+        width: 300px;
+        p {
+          font-size: 16px;
+        }
+      }
+      .barcaMore {
+        margin-top: 100px;
+        .button {
+          border-radius: 25px;
+
+          padding: 10px 20px;
+          color: white;
+          font-size: 15px;
+          text-decoration: none;
+          background-color: #79addc;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .bangWrapper {
+    margin: 0 auto;
+    display: flex;
+    margin-top: 75px;
+    .bang-img {
+      height: 287px;
+      width: 200px;
+      background-image: url(../images/special-offer-02.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .titleWrapper {
+      margin-left: 40px;
+      .title-disc {
+        margin: 0 auto;
+        display: flex;
+        .bang-title {
+          h2 {
+            font-size: 30px;
+          }
+        }
+        .bang-disc {
+          margin-left: 10px;
+          margin-top: 5px;
+          h3 {
+            font-size: 20px;
+            color: orange;
+          }
+        }
+      }
+      .bangLine {
+        border-bottom: 2px solid black;
+        width: 200px;
+        margin-top: 10px;
+      }
+      .bangDesc {
+        margin-top: 20px;
+        width: 300px;
+        p {
+          font-size: 16px;
+        }
+      }
+      .bangMore {
+        margin-top: 100px;
+        .button {
+          border-radius: 25px;
+
+          padding: 10px 20px;
+          color: white;
+          font-size: 15px;
+          text-decoration: none;
+          background-color: #79addc;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .special-offers {
+    .offers-title {
+      h2 {
+        font-size: 20px;
+      }
+    }
+    .titleLine {
+      width: 20%;
+    }
+    .barcaWrapper {
+      width: 80%;
+      .barca-img {
+        display: none;
+      }
+      .titleWrapper {
+        .title-disc {
+          .barca-title {
+            h2 {
+              font-size: 20px;
+            }
+          }
+        }
+        .barcaLine {
+          width: 40%;
+        }
+        .barcaDesc {
+          width: 50%;
+        }
+      }
+    }
+    .bangWrapper {
+      width: 80%;
+      .bang-img {
+        display: none;
+      }
+      .titleWrapper {
+        .title-disc {
+          .bang-title {
+            h2 {
+              font-size: 20px;
+            }
+          }
+        }
+        .bangLine {
+          width: 40%;
+        }
+        .bangDesc {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
