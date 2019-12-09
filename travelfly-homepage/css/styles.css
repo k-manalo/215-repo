@@ -82,11 +82,7 @@ a {
     height: 150px; }
     .hero-wrapper .hero {
       width: 100%;
-<<<<<<< HEAD
-      height: 220px;
-=======
       height: 150px;
->>>>>>> f68dccdf72e15640739db33ccc2f23800448b66a
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; }
@@ -95,11 +91,7 @@ a {
       .hero-wrapper .hero .callout .lipsum {
         display: none; }
       .hero-wrapper .hero .callout .button {
-<<<<<<< HEAD
-        width: 75%; } }
-=======
         display: none; } }
->>>>>>> f68dccdf72e15640739db33ccc2f23800448b66a
 
 nav {
   width: 80%;
@@ -140,15 +132,12 @@ nav {
         text-decoration: none;
         margin-right: 10px;
         margin-left: 10px; }
-<<<<<<< HEAD
       nav .link-wrap .links .alta {
         color: black;
         font-size: 15px;
         text-decoration: none;
         margin-right: 10px;
         margin-left: 10px; }
-=======
->>>>>>> f68dccdf72e15640739db33ccc2f23800448b66a
     nav .link-wrap span {
       margin: 0 10px;
       color: #79addc;
@@ -160,11 +149,7 @@ nav {
 
 @media (max-width: 768px) {
   nav {
-<<<<<<< HEAD
     width: 75%; }
-=======
-    width: 300px; }
->>>>>>> f68dccdf72e15640739db33ccc2f23800448b66a
     nav .link-wrap {
       margin-top: 250px;
       padding-top: 50px; }
@@ -308,37 +293,24 @@ nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-<<<<<<< HEAD
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-=======
-    -ms-flex-line-pack: center;
-    align-content: center;
->>>>>>> f68dccdf72e15640739db33ccc2f23800448b66a
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-<<<<<<< HEAD
     margin-top: 125px; }
-=======
-    margin-top: 25px; }
->>>>>>> f68dccdf72e15640739db33ccc2f23800448b66a
     .countries .israel {
       height: 200px; }
       .countries .israel .learn-more {
         margin-top: 10px; }
     .countries .usa {
       margin-top: 50px;
-<<<<<<< HEAD
       margin-left: 57px;
-=======
-      margin-left: 0;
->>>>>>> f68dccdf72e15640739db33ccc2f23800448b66a
       height: 200px; }
       .countries .usa .learn-more {
         margin-top: 10px; }
@@ -683,7 +655,6 @@ nav {
     width: 75%; }
   .booking-form .inputs .checkout {
     width: 75%; }
-<<<<<<< HEAD
   .booking-form .inputs .room-size {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -703,23 +674,6 @@ nav {
     .booking-form .inputs .room-size .rooms input {
       margin-left: 0px;
       max-width: 30%; }
-=======
-  .booking-form .inputs .room-size .adults p {
-    margin-left: 0px; }
-  .booking-form .inputs .room-size .adults input {
-    margin-left: 0px;
-    max-width: 30%; }
-  .booking-form .inputs .room-size .children p {
-    margin-left: -80px; }
-  .booking-form .inputs .room-size .children input {
-    margin-left: 0px;
-    max-width: 30%; }
-  .booking-form .inputs .room-size .rooms p {
-    margin-left: -80px; }
-  .booking-form .inputs .room-size .rooms input {
-    margin-left: 0px;
-    max-width: 30%; }
->>>>>>> f68dccdf72e15640739db33ccc2f23800448b66a
   .booking-form .inputs .message input {
     -webkit-box-pack: none;
     -ms-flex-pack: none;
@@ -765,7 +719,6 @@ nav {
         text-decoration: none;
         color: white; }
 
-<<<<<<< HEAD
 .altfooter {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -802,15 +755,12 @@ nav {
         text-decoration: none;
         color: white; }
 
-=======
->>>>>>> f68dccdf72e15640739db33ccc2f23800448b66a
 @media (max-width: 768px) {
   .footer {
     margin-top: 500px;
     height: 100px; }
     .footer .footer-container .copyright {
       margin-left: 50px;
-<<<<<<< HEAD
       margin-right: 50px; }
   .altfooter {
     margin-top: 500px;
@@ -2151,6 +2101,3 @@ nav {
     font-size: 12px; }
   .bookingButton .bookNow {
     font-size: 10px; } }
-=======
-      margin-right: 50px; } }
->>>>>>> f68dccdf72e15640739db33ccc2f23800448b66a
